@@ -1,0 +1,5728 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fjalla+One&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/*-------------------------------------- PETIT NAV OU AVANT MENU */
+/* Styles pour la barre de navigation */
+.navbarpetit {
+    display: grid;
+    grid-template-columns: 12% 60% 28%;
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+    background-color: #fff;
+}
+/* Styles pour le portail */
+.portail {
+    height: 35px;
+    width: 100%;
+    font-size: 13px;
+    background-color: #ddf2fb;
+    padding-left: 15px;
+}
+
+.portail .farbe {
+    color: #555;
+}
+
+.portail:hover {
+    background-color: #1cabe2;
+}
+
+.portail a {
+    text-decoration: none;
+}
+
+.portail a:hover {
+    color: #fff;
+}
+
+.droite ul {
+    list-style: none;
+}
+
+.droite ul li {
+    display: inline-block;
+}
+
+/* Styles pour les liens dans la section droite */
+.droite ul li a {
+    font-size: 12px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+.droite a {
+    color: #222;
+    text-decoration: none;
+}
+
+.droite a:hover {
+    color: #35b5ff;
+}
+
+.droite small {
+    color: gray;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.droite .log {
+    font-size: 16px;
+}
+
+/* Styles pour les images de profil */
+.droite .log img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* RESPONSIVE */
+.navbarpetitPhone {
+    display: none;
+}
+
+/* ... autres styles ... */
+
+/*-------------------------------------- NAV OU MENU PRINCIPAL */
+
+nav.nav-principal {
+    height: 70px;
+    width: 100%;
+    top: 0;
+    margin: 0px;
+    background-color: #fff;
+    border-top: 1px solid #2222;
+    border-bottom: 1px solid #2222;
+}
+
+nav.nav-principal a .logo {
+    height: 70px;
+    width: 155px;
+    margin-left: 10px;
+    border-bottom: 1px solid #2222;
+}
+
+nav.nav-principal a {
+    text-decoration: none;
+    color: #555;
+}
+
+nav.nav-principal ul {
+    list-style: none;
+    float: right;
+}
+
+nav.nav-principal ul li {
+    display: inline-block;
+    margin: 0 25px;
+    line-height: 70px;
+    font-size: 17px;
+}
+
+nav.nav-principal ul li a {
+    color: #555;
+}
+
+nav.nav-principal ul .ligne:hover {
+    border-bottom: 4px solid #1cabe2;
+}
+
+nav.nav-principal ul li .brule:hover {
+    color: #1cabe2;
+}
+
+nav.nav-principal ul li a .sucher:hover {
+    color: #1cabe2;
+}
+
+nav.nav-principal ul li a.active {
+    color: #1cabe2;
+}
+
+nav.nav-principal ul li.item-active {
+    border-bottom: 4px solid #1cabe2;
+}
+
+/* MENU HAMBURGER */
+nav.nav-principal .menuHamburger {
+    display: none;
+}
+
+/* LOGIN & LOGOUT RESPONSIVE */
+nav.nav-principal .log {
+    display: none;
+}
+
+/* DON PHONE RESPONSIVE */
+.donPhone {
+    display: none;
+}
+
+/* MENU PHONE RESPONSIVE */
+.menuPhone {
+    display: none;
+}
+
+ul li .ligne {
+    line-height: 70px;
+    margin: 0 20px;
+}
+
+ul li a {
+    color: #555;
+    text-decoration: none;
+}
+
+ul .ligne:hover {
+    border-bottom: 4px solid #1cabe2;
+}
+
+ul li .brule:hover {
+    color: #1cabe2;
+}
+
+ul li a .sucher:hover {
+    color: #1cabe2;
+}
+
+ul li a.active {
+    color: #1cabe2;
+}
+
+ul li.item-active {
+    border-bottom: 4px solid #1cabe2;
+}
+
+nav ul li.donateur {
+    background-color: #1cabe2;
+    padding: 0 20px 0 20px;
+    margin-right: -29px;
+}
+
+nav ul li.donateur:hover {
+    background-color: #098dc0;
+}
+
+nav ul li.donateur a {
+    color: #fff;
+}
+
+nav ul li.don {
+    background-color: #ff8d41;
+    padding: 0 20px 0 20px;
+    margin-right: -5px;
+}
+
+nav ul li.don:hover {
+    background-color: #ec7a2e;
+}
+
+nav ul li.don a {
+    color: #fff;
+}
+
+
+
+/*------------------------------------------------ PAGE HOME */
+
+
+/*----------- CAROUSEL */
+
+.p-home .carousel-inner .carousel-item img {
+    height: 100%;
+    width: 100vh;
+}
+
+
+/*------------- START */
+
+section .slogan-am h2 {
+    padding: 100px 0 100px 0;
+    font-size: 35px;
+    font-family: 'Fjalla One';
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+}
+
+section .slogan-am h2 span {
+    font-family: 'Fjalla One';
+    color: #1cabe2;
+}
+
+section.p-home {
+    margin-top: 110px;
+}
+
+section {
+    margin: 0 20px 0 20px;
+}
+
+.custom-btn:hover {
+    background-color: #098dc0;
+    color: #fff;
+}
+
+
+
+/*--------- ACTUALITE */
+
+section .actualite1 a {
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 15px 30px 15px 30px;
+    margin-right: -20px;
+    background-color: #1cabe2;
+    color: #fff;
+}
+
+section .actualite1 a:hover {
+    background-color: #098dc0;
+}
+
+.p-actualite {
+    background-color: #f7f9fa;
+    height: 625px;
+    width: 100%;
+}
+
+/* .dimension {
+    height: 400px;
+    width: 100%;
+} */
+
+section h6 {
+    background-color: #1cabe2;
+    height: 30px;
+    width: 110px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/*------------NOS ACTIONS */
+
+.p-action {
+    margin: 0 80px 80px 80px;
+}
+
+.p-action .row .col-md-3 .actioncolor {
+    background-color: #1cabe2;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.p-action .row .col-md-3 i {
+    font-size: 25px;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 100%;
+    margin: 30px 0 40px 30px;
+}
+
+.p-action .row .col-md-3 h5 {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.p-action .row .col-md-3 p {
+    margin-left: 20px;
+    font-size: 13px;
+
+}
+
+.p-action .row .col-md-3 a {
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 15px 30px 15px 30px;
+    background-color: #fff;
+    color: #1cabe2;
+    margin-left: 20px;
+}
+
+.p-action .row .col-md-3 .instruction {
+    margin-top: 20px;
+}
+
+.p-action .row .col-md-3 .medicament {
+    margin-top: 40px;
+}
+
+.p-action .row .col-md-3 .hebergement {
+    margin-top: 60px;
+}
+
+.p-action .row .col-md-3 .participation {
+    margin-top: 20px;
+}
+
+.p-action .row .col-md-3 a:hover {
+    background-color: #ddf2fb
+}
+
+
+
+
+/* -----------BENEVOLE */
+
+.p-benevole {
+    background-color: #ddf2fb;
+    height: 625px;
+    width: 100%;
+}
+
+
+
+
+/* -------------DONATION HOME */
+
+.p-donation {
+    background-color: #f6eeee;
+    height: 600px;
+    width: 100%;
+}
+
+.p-donation h2 {
+    /* margin-right: 50px; */
+    padding: 60px 0 10px;
+}
+
+.p-donation img {
+    height: 20%;
+    width: 100%;
+}
+
+.p-donation .dona-don {
+    color: #fff;
+    background-color: #1cabe2;
+    height: 422px;
+    width: 100%;
+    padding: 70px 50px 50px 50px;
+
+}
+
+.p-donation a {
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 15px 30px 15px 30px;
+    background-color: #fff;
+    color: #1cabe2;
+    /* margin-top: 35px; */
+}
+
+.p-donation a:hover {
+    background-color: #fff;
+}
+
+
+/* -----------------------------------------ESPACE DONATEUR */
+
+
+section.p-login .monPasse{
+    display: flex;
+    justify-content: right;
+    margin-top: -40px;
+}
+
+section.p-login .inscription {
+   padding-top: 10px;
+  
+}
+
+/* .p-admin {
+    padding-top: 112px;
+} */
+
+
+
+
+
+
+
+/*----------------------------------------- ALL NEWS */
+
+section.p-all-news {
+    margin-top: 95px;
+}
+
+.all-news {
+    background-color: #f7f9fa;
+}
+
+section .row .col-md-4 h5 {
+    margin-top: 10px;
+    background-color: #1cabe2;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/*-----------NEWSLETTER */
+
+.p-newsletter {
+    background-color: #ddf2fb;
+    height: 300px;
+    width: 100%;
+}
+
+.p-newsletter .row {
+    margin: 0 20px 0 20px;
+    padding-top: 50px;
+
+}
+
+.p-newsletter section ul.r-social li {
+    display: inline-block;
+}
+
+.p-newsletter section ul li i {
+    margin-right: 15px;
+    font-size: 16px;
+    border: 1px solid #1cabe2;
+    padding: 15px 17px 15px 17px;
+    border-radius: 100%;
+}
+
+.p-newsletter section ul li i:hover {
+    color: #ec7a2e;
+    border: 1px solid #ff8d41;
+}
+
+.p-newsletter section p {
+    font-size: 10px;
+    color: #555;
+}
+
+.p-newsletter section .btn {
+    max-height: 45px;
+}
+
+.p-newsletter section .btn:hover {
+    color: #fff;
+}
+
+
+
+/*----------------------------------------- PAGE CONTANCT */
+
+
+section h1.contact {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section div.container {
+    max-width: 600px;
+    /* margin: 0 auto; */
+    padding: 20px;
+}
+
+section div form input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+section div form input[type="submit"] {
+    background-color: #35b5ff;
+    color: white;
+    border: none;
+    padding: 12px 248px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+section div form input[type="submit"]:hover {
+    background-color: #35b5ff
+}
+
+section div.container img {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+/*--------------------------------------------------- FAQ */
+
+
+section h1.faq {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section main div.faq-item {
+    margin-bottom: 20px;
+}
+
+section main div.faq-item h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section main div.faq-item dl {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+section main div.faq-item dl dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+section main div.faq-item dl dd {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+section main div ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+section main div ul li {
+    margin-top: 5px;
+}
+
+
+/*------------------------------------------------- ADMIN LOGIN */
+
+section.p-login {
+    margin-top: 180px;
+    margin-bottom: 40px;
+}
+
+section.p-login form {
+    border: 1px solid #000;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.p-admin {
+    padding-top: 112px;
+}
+
+
+
+
+/*------------------------------------------------- FOOTER */
+
+footer {
+    padding-top: 50px;
+}
+
+footer .about-am {
+    padding-bottom: 12px;
+}
+
+footer .about-am img {
+    height: 80px;
+    width: 160px;
+}
+
+footer div ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+footer .about-am i {
+    font-size: 20px;
+    color: #1cabe2;
+    margin-right: 10px;
+
+
+}
+
+footer .about-am i.fa-phone {
+    transform: rotate(110deg);
+
+}
+
+footer .soutenir-am {
+    margin-bottom: -17px;
+}
+
+footer .soutenir-am i {
+    font-size: 40px;
+    color: #1cabe2;
+    margin-right: 15px;
+}
+
+footer .soutenir-am i:hover {
+    color: #098dc0;
+}
+
+footer .soutenir-am p {
+    color: #555
+}
+
+footer .row ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 100;
+    line-height: 1;
+}
+
+footer .row ul li a:hover {
+    color: #1cabe2;
+
+}
+
+footer .footband {
+    background-color: rgb(78, 72, 72);
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+}
+
+footer .footband ul {
+    list-style: none;
+}
+
+footer .footband ul li {
+    display: inline-block;
+    margin-right: 30px;
+    padding-top: 15px;
+}
+
+footer .footband ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .footband ul li a:hover {
+    color: #1cabe2;
+}
+
+
+
+/* ------------------------STYLES FOR SMATPHONE -------------------------------------------------------------- */
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    /* -------------------------------------HEADER */
+    header {
+        position: fixed;
+        z-index: 999;
+
+    }
+
+    /*-------------------------------------- PETIT NAV OU AVANT MENU */
+
+    .navbarpetit {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        /* flex-direction: column; */
+    }
+
+    .portail-phone {
+        background-color: #ddf2fb;
+        height: 40px;
+        width: 100%;
+        padding-top: 2px;
+    }
+
+    .portail-phone:hover {
+        background-color: #1cabe2;
+    }
+
+    .droite ul {
+        display: none;
+    }
+
+
+
+
+
+    /*-------------------------------------- NAV OU MENU PRINCIPAL */
+
+
+    nav.nav-principal {
+        display: none;
+        display: flex;
+        height: 65px;
+        width: 100%;
+        top: 0;
+        margin: 0px;
+        background-color: #fff;
+        border-top: 1px solid #2222;
+        border-bottom: 1px solid #2222;
+    }
+
+    /* MENU HAMBURGER */
+    nav.nav-principal .menuHamburger {
+        display: block;
+        color: #555;
+        cursor: pointer;
+        padding-left: 20px;
+        padding-top: 22px;
+    }
+
+    /* LOGIN & LOGOUT RESPONSIVE */
+    nav.nav-principal .log {
+        display: block;
+        display: flex;
+        align-items: center;
+        margin-left: 25px;
+        color: #555;
+        max-width: 50px;
+    }
+
+    nav.nav-principal .log:hover {
+        color: #35b5ff;
+    }
+
+    nav.nav-principal .log img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+
+    /* LOGO RESPONSIVE */
+    nav.nav-principal a .logo {
+        height: 65px;
+        width: 130px;
+        padding-left: 5px;
+    }
+
+    /* DON PHONE RESPONSIVE */
+    nav.nav-principal .donPhone {
+        background-color: #ff8d41;
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: auto;
+        width: 155px;
+        margin-left: auto;
+        padding-left: 20px;
+    }
+
+    nav.nav-principal .donPhone:hover {
+        background-color: #ec7a2e;
+    }
+
+    nav.nav-principal .donPhone a {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    /*  MENU PRINCIPAL CACHE */
+    nav.nav-principal #popupForm {
+        display: none;
+    }
+
+    /* DONATEUR RESPONSIVE */
+    .menuPhone .donateur2 {
+        background-color: #1cabe2;
+        display: flex;
+        align-items: center;
+        padding-left: 36%;
+        height: 57px;
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .menuPhone .donateur2:hover {
+        background-color: #098dc0;
+    }
+
+    .menuPhone .donateur2 a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    /* AREABOUTTON DE RECHERCHE */
+    .menuPhone form {
+        padding: 33px 0 20px 0;
+        margin-left: 30px;
+        margin-right: 30px;
+        display: none;
+    }
+
+    .menuPhone ul.menuPhone1 li {
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 22px 0 22px 0;
+        border-bottom: 1px solid #555;
+    }
+
+    .menuPhone ul.menuPhone1 li:last-child {
+        border-bottom: none;
+        margin-bottom: 10px;
+    }
+
+
+    /* NAVBAR PETIT PHONE COMME FOOTER */
+    .menuPhone .navbarpetitPhone {
+        display: block;
+        background-color: #ddf2fb;
+    }
+
+    .menuPhone .navbarpetitPhone ul li {
+        list-style: none;
+        font-size: 14px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .menuPhone .navbarpetitPhone ul li:first-child {
+        padding-top: 20px;
+    }
+
+    .menuPhone .navbarpetitPhone ul li:last-child {
+        margin-bottom: 70px;
+    }
+
+
+    /*------------------------------------------------ PAGE HOME */
+
+
+    /*----------- CAROUSEL */
+
+    .p-homePhone {
+        margin-top: 80px;
+    }
+
+
+
+
+
+
+    /*------------- START */
+
+    section .slogan-am h2 {
+        padding: 100px 0 100px 0;
+        font-size: 27px;
+        font-family: 'Fjalla One';
+        font-weight: 700;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    section .slogan-am h2 span {
+        font-family: 'Fjalla One';
+        color: #1cabe2;
+    }
+
+    section.p-home {
+        margin-top: 110px;
+    }
+
+    section {
+        margin: 0 20px 0 20px;
+    }
+
+    .custom-btn:hover {
+        background-color: #098dc0;
+        color: #fff;
+    }
+
+
+
+
+    /*--------- ACTUALITE */
+
+    section .actualite1 a {
+        text-decoration: none;
+        /* font-size: 13px; */
+        text-transform: uppercase;
+        padding: 15px 30px 15px 30px;
+        background-color: #1cabe2;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    section .actualite1 a:hover {
+        background-color: #098dc0;
+    }
+
+    .p-actualite {
+        background-color: #f7f9fa;
+        height: 100%;
+        width: 100%;
+    }
+
+    section h2 {
+        padding-bottom: 15px;
+    }
+
+    section .cardActualite {
+        padding-bottom: 30px;
+    }
+
+    /* .dimension {
+        height: 100px;
+        width: 100%;
+    } */
+
+    section h6 {
+        background-color: #1cabe2;
+        height: 30px;
+        width: 110px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+
+    /*----------------------------------------- ALL NEWS */
+
+    section.p-all-news {
+        margin-top: 80px;
+    }
+
+    .all-news {
+        background-color: #f7f9fa;
+    }
+
+    section.p-all-news .row .col-4 h5 {
+        margin-top: 10px;
+        background-color: #1cabe2;
+        color: #fff;
+        height: 40px;
+        width: 150px;
+        line-height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+
+
+
+    /*------------NOS ACTIONS */
+
+    .p-action {
+        margin: 0;
+        /* display: flex;
+        align-items: center; */
+    }
+
+    .p-action .nosAction1 {
+        padding-bottom: 25px;
+    }
+
+    .p-action .nosAction1 a {
+        padding: 10px 22px 10px 22px;
+    }
+
+    .p-action .row .col-md-3 .actioncolor {
+        background-color: #1cabe2;
+        height: 370px;
+        width: 100%;
+        margin-bottom: 25px;
+        color: #fff;
+    }
+
+    /* LES SYMBOLES */
+    .p-action .row .col-md-3 i {
+        font-size: 25px;
+        border: 1px solid #fff;
+        padding: 15px;
+        border-radius: 100%;
+        margin: 15px 0 20px 20px;
+    }
+
+    .p-action .row .col-md-3 h5 {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .p-action .row .col-md-3 p {
+        margin-left: 20px;
+        font-size: 13px;
+    }
+
+    .p-action .row .col-md-3 a {
+        padding: 15px 10px 15px 10px;
+        margin-top: 0;
+    }
+
+    .p-action .row .col-md-3 a:hover {
+        background-color: #ddf2fb
+    }
+
+    .p-action .row .col-md-3 .instruction {
+        margin-top: 10px;
+    }
+
+    .p-action .row .col-md-3 .medicament {
+        margin-top: 10px;
+    }
+
+    .p-action .row .col-md-3 .hebergement {
+        margin-top: 10px;
+    }
+
+    .p-action .row .col-md-3 .participation {
+        margin-top: 10px;
+    }
+
+
+
+
+    /* -----------BENEVOLE */
+
+    .p-benevole {
+        background-color: #ddf2fb;
+        height: 870px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+
+    /* -------------DONATION HOME */
+
+    .p-donation {
+        background-color: #eef3f6;
+        height: 900px;
+        width: 100%;
+    }
+
+    .p-donation h2 {
+        padding: 20px;
+    }
+
+    .p-donation .dona-don {
+        color: #fff;
+        background-color: #1cabe2;
+        height: 300px;
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .p-donation a {
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 10px 25px 10px 25px;
+        background-color: #fff;
+        color: #1cabe2;
+        margin-top: -1px;
+    }
+
+    .p-donation a:hover {
+        background-color: #fff;
+    }
+
+
+    /* -----------------------------------------ESPACE DONATEUR */
+
+
+
+
+
+
+
+
+    /*-----------NEWSLETTER */
+
+    .p-newsletter {
+        background-color: #ddf2fb;
+        height: 320px;
+        width: 100%;
+    }
+
+    .p-newsletter .row {
+        padding-top: 30px;
+    }
+
+    .p-newsletter section ul.r-social li {
+        display: inline-block;
+    }
+
+    .p-newsletter section ul li i {
+        margin-right: 15px;
+        font-size: 16px;
+        border: 1px solid #1cabe2;
+        padding: 15px 17px 15px 17px;
+        border-radius: 100%;
+    }
+
+    .p-newsletter section ul li i:hover {
+        color: #ec7a2e;
+        border: 1px solid #ff8d41;
+    }
+
+    .p-newsletter section p {
+        font-size: 12px;
+        color: #555;
+    }
+
+
+
+    /*----------------------------------------- PAGE CONTANCT */
+
+    section h1.contact {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    section div.container {
+        max-width: 500px;
+        /* margin: 0 auto; */
+        padding: 20px;
+    }
+
+    section div form input[type="submit"] {
+        background-color: #35b5ff;
+        color: white;
+        border: none;
+        padding: 12px 43%;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    section div form input[type="submit"]:hover {
+        background-color: #35b5ff
+    }
+
+    section div.container img {
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+
+
+
+    /*--------------------------------------------------- FAQ */
+
+
+    section h1.faq {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    section main div.faq-item {
+        margin-bottom: 20px;
+    }
+
+    section main div.faq-item h2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    section main div.faq-item dl {
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+    section main div.faq-item dl dt {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    section main div.faq-item dl dd {
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    section main div ul {
+        list-style-type: none;
+        margin-left: 20px;
+    }
+
+    section main div ul li {
+        margin-top: 5px;
+    }
+
+
+
+
+    /*------------------------------------------------- FOOTER */
+
+    footer {
+        padding-top: 50px;
+    }
+
+    footer .about-am img {
+        height: 80px;
+        width: 160px;
+    }
+
+    footer div ul {
+        list-style-type: none;
+        padding: 0;
+
+    }
+
+    footer .about-am i {
+        font-size: 20px;
+        color: #1cabe2;
+        margin-right: 10px;
+    }
+
+    footer .about-am i.fa-phone {
+        transform: rotate(110deg);
+
+    }
+
+    footer .soutenir-am i {
+        font-size: 40px;
+        color: #1cabe2;
+        margin-right: 15px;
+    }
+
+    footer .soutenir-am i:hover {
+        color: #098dc0;
+    }
+
+    footer .soutenir-am p {
+        color: #555
+    }
+
+    footer .row ul li a {
+        text-decoration: none;
+        color: #555;
+        font-weight: 100;
+        line-height: 2;
+    }
+
+    footer .row ul li a:hover {
+        color: #1cabe2;
+
+    }
+
+
+    /* ------------------------FOOTBAND --------------------------------*/
+
+
+    footer .footband {
+        background-color: rgb(78, 72, 72);
+        font-size: 10px;
+        text-align: center;
+    }
+
+    footer .footband ul {
+        list-style: none;
+        padding: 20px;
+    }
+
+    footer .footband ul li {
+        /* display: inline-block; */
+        /* margin-right: 30px; */
+        padding: 7px 0 7px 0;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        /* display: inline-block;
+        width: unset; */
+    }
+
+    footer .footband ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    footer .footband ul li a:hover {
+        color: #1cabe2;
+    }
+
+}
+
+/* ------------------------STYLES FOR TABLETTE -------------------------------------------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    /* -------------------------------------HEADER */
+    header {
+        position: fixed;
+        z-index: 999;
+
+    }
+
+
+    /*-------------------------------------- PETIT NAV OU AVANT MENU */
+
+    .navbarpetit {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        /* flex-direction: column; */
+    }
+
+    .portail-phone {
+        background-color: #ddf2fb;
+        height: 40px;
+        width: 100%;
+        padding-top: 2px;
+    }
+
+    .portail-phone:hover {
+        background-color: #1cabe2;
+    }
+
+    .droite ul {
+        display: none;
+    }
+
+
+
+
+
+    /*-------------------------------------- NAV OU MENU PRINCIPAL */
+
+
+    nav.nav-principal {
+        display: none;
+        display: flex;
+        height: 65px;
+        width: 100%;
+        top: 0;
+        margin: 0px;
+        background-color: #fff;
+        border-top: 1px solid #2222;
+        border-bottom: 1px solid #2222;
+    }
+
+    /* MENU HAMBURGER */
+    nav.nav-principal .menuHamburger {
+        display: block;
+        color: #555;
+        cursor: pointer;
+        padding-left: 20px;
+        padding-top: 22px;
+    }
+
+    /* LOGIN & LOGOUT RESPONSIVE */
+    nav.nav-principal .log {
+        display: block;
+        display: flex;
+        align-items: center;
+        margin-left: 80px;
+        font-size: 20px;
+        color: #555;
+    }
+
+    nav.nav-principal .log:hover {
+        color: #35b5ff;
+    }
+
+    nav.nav-principal .log img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    /* LOGO RESPONSIVE */
+    nav.nav-principal a .logo {
+        height: 65px;
+        width: 150px;
+        padding-left: 50px;
+    }
+
+    /* DON PHONE RESPONSIVE */
+    nav.nav-principal .donPhone {
+        background-color: #ff8d41;
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: auto;
+        width: 155px;
+        margin-left: auto;
+        padding-left: 20px;
+    }
+
+    nav.nav-principal .donPhone:hover {
+        background-color: #ec7a2e;
+    }
+
+    nav.nav-principal .donPhone a {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    /*  MENU PRINCIPAL CACHE */
+    nav.nav-principal #popupForm {
+        display: none;
+    }
+
+    /* DONATEUR RESPONSIVE */
+    .menuPhone .donateur2 {
+        background-color: #1cabe2;
+        display: flex;
+        align-items: center;
+        padding-left: 36%;
+        height: 57px;
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .menuPhone .donateur2:hover {
+        background-color: #098dc0;
+    }
+
+    .menuPhone .donateur2 a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    /* AREABOUTTON DE RECHERCHE */
+    .menuPhone form {
+        padding: 33px 0 20px 0;
+        margin-left: 30px;
+        margin-right: 30px;
+        display: none;
+    }
+
+    .menuPhone ul.menuPhone1 li {
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 20px 0 20px 0;
+        border-bottom: 1px solid #555;
+    }
+
+    .menuPhone ul.menuPhone1 li:nth-child(5) {
+        border-bottom: none;
+    }
+
+
+    /* NAVBAR PETIT PHONE COMME FOOTER */
+    .menuPhone .navbarpetitPhone {
+        display: block;
+        background-color: #ddf2fb;
+    }
+
+    .menuPhone .navbarpetitPhone ul li {
+        list-style: none;
+        font-size: 13px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .menuPhone .navbarpetitPhone ul li:first-child {
+        margin-top: 20px;
+    }
+
+    .menuPhone .navbarpetitPhone ul li:last-child {
+        margin-bottom: 20px;
+    }
+
+
+    /*------------------------------------------------ PAGE HOME */
+
+
+    /*----------- CAROUSEL */
+
+    .p-homePhone {
+        margin-top: 80px;
+    }
+
+
+
+
+    /*------------- START */
+
+    section .slogan-am h2 {
+        padding: 100px 0 100px 0;
+        font-size: 33px;
+        font-family: 'Fjalla One';
+        font-weight: 700;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    section .slogan-am h2 span {
+        font-family: 'Fjalla One';
+        color: #1cabe2;
+    }
+
+    section.p-home {
+        margin-top: 110px;
+    }
+
+    section {
+        margin: 0 20px 0 20px;
+    }
+
+    .custom-btn:hover {
+        background-color: #098dc0;
+        color: #fff;
+    }
+
+
+
+
+    /*--------- ACTUALITE */
+
+    section .actualite1 a {
+        text-decoration: none;
+        /* font-size: 13px; */
+        text-transform: uppercase;
+        /* height: 60px;
+    width: 302px; */
+        background-color: #1cabe2;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    section .actualite1 a:hover {
+        background-color: #098dc0;
+    }
+
+    .p-actualite {
+        background-color: #f7f9fa;
+        height: 100%;
+        width: 100%;
+    }
+
+    section h2 {
+        padding-bottom: 15px;
+    }
+
+    section .cardActualite {
+        padding-bottom: 30px;
+        height: 100%px;
+        width: 50%;
+    }
+
+    section h6 {
+        background-color: #1cabe2;
+        height: 30px;
+        width: 110px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+
+    /*----------------------------------------- ALL NEWS */
+
+    section.p-all-news {
+        margin-top: 80px;
+        height: 100%;
+        width: 50%;
+    }
+
+    .all-news {
+        background-color: red;
+    }
+
+    section.p-all-news .row .col-4 h5 {
+        margin-top: 10px;
+        background-color: #1cabe2;
+        color: #fff;
+        height: 40px;
+        width: 150px;
+        line-height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+
+
+
+    /*------------NOS ACTIONS */
+
+    .p-action {
+        margin: 0;
+        /* display: flex;
+    align-items: center; */
+    }
+
+    .p-action .nosAction1 {
+        padding-bottom: 25px;
+    }
+
+
+    .p-action .row .col-md-3 .actioncolor {
+        background-color: #1cabe2;
+        height: 500px;
+        width: 500px;
+        margin-bottom: 25px;
+        color: #fff;
+    }
+
+
+    /* .p-action .row .col-md-3 .actioncolor {
+        background-color: #1cabe2;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 25px;
+        color: #fff;
+    } */
+
+    .p-action .row .col-md-3 i {
+        font-size: 25px;
+        border: 1px solid #fff;
+        padding: 15px;
+        border-radius: 100%;
+        margin: 30px 0 40px 30px;
+    }
+
+    .p-action .row .col-md-3 h5 {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .p-action .row .col-md-3 p {
+        margin-left: 20px;
+        font-size: 13px;
+
+    }
+
+    .p-action .row .col-md-3 a {
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 15px 30px 15px 30px;
+        background-color: #fff;
+        color: #1cabe2;
+        margin-left: 20px;
+    }
+
+
+
+
+
+
+
+
+    .p-action .row .col-md-3 .instruction {
+        margin-top: 10px;
+    }
+
+    .p-action .row .col-md-3 .medicament {
+        margin-top: 10px;
+    }
+
+    .p-action .row .col-md-3 .hebergement {
+        margin-top: 10px;
+    }
+
+    .p-action .row .col-md-3 .participation {
+        margin-top: 10px;
+    }
+
+
+
+
+    /* -----------BENEVOLE */
+
+    .p-benevole {
+        background-color: #ddf2fb;
+        height: 870px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+
+    /* -------------DONATION HOME */
+
+    .p-donation {
+        background-color: #eef3f6;
+        height: 900px;
+        width: 100%;
+    }
+
+    .p-donation h2 {
+        padding: 20px;
+    }
+
+    .p-donation .dona-don {
+        color: #fff;
+        background-color: #1cabe2;
+        height: 300px;
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .p-donation a {
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 15px 30px 15px 30px;
+        background-color: #fff;
+        color: #1cabe2;
+        margin-top: 1px;
+    }
+
+    .p-donation a:hover {
+        background-color: #fff;
+    }
+
+
+    /* -----------------------------------------ESPACE DONATEUR */
+
+
+
+
+
+
+
+
+    /*-----------NEWSLETTER */
+
+    .p-newsletter {
+        background-color: #ddf2fb;
+        height: 320px;
+        width: 100%;
+    }
+
+    .p-newsletter .row {
+        padding-top: 30px;
+    }
+
+    .p-newsletter section ul.r-social li {
+        display: inline-block;
+    }
+
+    .p-newsletter section ul li i {
+        margin-right: 15px;
+        font-size: 16px;
+        border: 1px solid #1cabe2;
+        padding: 15px 17px 15px 17px;
+        border-radius: 100%;
+    }
+
+    .p-newsletter section ul li i:hover {
+        color: #ec7a2e;
+        border: 1px solid #ff8d41;
+    }
+
+    .p-newsletter section p {
+        font-size: 12px;
+        color: #555;
+    }
+
+
+
+    /*----------------------------------------- PAGE CONTANCT */
+
+
+    section h1.contact {
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    section div.container {
+        max-width: 570px;
+        /* margin: 0 auto; */
+        padding: 20px;
+    }
+
+    section div form input[type="submit"] {
+        padding: 12px 44%;
+    }
+
+
+    section div.container img {
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+
+
+
+    /*--------------------------------------------------- FAQ */
+
+
+    section h1.faq {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    section main div.faq-item {
+        margin-bottom: 20px;
+    }
+
+    section main div.faq-item h2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    section main div.faq-item dl {
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+    section main div.faq-item dl dt {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    section main div.faq-item dl dd {
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    section main div ul {
+        list-style-type: none;
+        margin-left: 20px;
+    }
+
+    section main div ul li {
+        margin-top: 5px;
+    }
+
+
+
+
+    /*------------------------------------------------- FOOTER */
+
+    
+footer {
+    padding-top: 50px;
+}
+
+footer .about-am {
+    padding-bottom: 12px;
+}
+
+footer .about-am img {
+    height: 80px;
+    width: 160px;
+}
+
+footer div ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+footer .about-am i {
+    font-size: 20px;
+    color: #1cabe2;
+    margin-right: 10px;
+
+
+}
+
+footer .about-am i.fa-phone {
+    transform: rotate(110deg);
+
+}
+
+footer .soutenir-am {
+    margin-bottom: -17px;
+}
+
+footer .soutenir-am i {
+    font-size: 40px;
+    color: #1cabe2;
+    margin-right: 15px;
+}
+
+footer .soutenir-am i:hover {
+    color: #098dc0;
+}
+
+footer .soutenir-am p {
+    color: #555
+}
+
+footer .row ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 100;
+    line-height: 1;
+}
+
+footer .row ul li a:hover {
+    color: #1cabe2;
+
+}
+
+footer .footband {
+    background-color: rgb(78, 72, 72);
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+}
+
+footer .footband ul {
+    list-style: none;
+}
+
+footer .footband ul li {
+    display: inline-block;
+    margin-right: 30px;
+    padding-top: 15px;
+}
+
+footer .footband ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .footband ul li a:hover {
+    color: #1cabe2;
+}
+
+}
+
+
+/* ------------------------STYLES FOR COMPUTER -------------------------------------------------------------- */
+
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+
+    .navbarpetit {
+        display: grid;
+        grid-template-columns: 16% 46% 38%;
+        height: 35px;
+        width: 100%;
+        line-height: 35px;
+        background-color: #fff;
+    }
+
+    .portail {
+        height: 35px;
+        width: 100%;
+        font-size: 11px;
+        background-color: #ddf2fb;
+        padding-left: 15px;
+    }
+
+    .portail .farbe {
+        color: #555;
+    }
+
+    .portail:hover {
+        background-color: #1cabe2;
+    }
+
+    .portail a {
+        text-decoration: none;
+    }
+
+    .portail a:hover {
+        color: #fff;
+    }
+
+    .droite ul {
+        list-style: none;
+    }
+
+    .droite ul li {
+        display: inline-block;
+    }
+
+    .droite ul li a {
+        font-size: 10px;
+        font-style: normal;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .droite a {
+        color: #222;
+        text-decoration: none;
+    }
+
+    .droite a:hover {
+        color: #35b5ff;
+    }
+
+    .droite small {
+        color: gray;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* RESPONSIVE */
+    .navbarpetitPhone {
+        display: none;
+    }
+
+
+
+    /*-------------------------------------- NAV OU MENU PRINCIPAL */
+
+    nav.nav-principal {
+        height: 70px;
+        width: 100%;
+        top: 0;
+        margin: 0px;
+        background-color: #fff;
+        border-top: 1px solid #2222;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a .logo {
+        height: 70px;
+        width: 100px;
+        margin-left: 10px;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a {
+        text-decoration: none;
+        color: #555;
+    }
+
+    nav.nav-principal ul {
+        list-style: none;
+        float: right;
+    }
+
+    nav.nav-principal ul li {
+        display: inline-block;
+        margin: 0 10px;
+        line-height: 70px;
+        font-size: 12px;
+    }
+
+    nav.nav-principal ul li a {
+        color: #555;
+    }
+
+    nav.nav-principal ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav.nav-principal ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a.active {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    /* MENU HAMBURGER */
+    nav.nav-principal .menuHamburger {
+        display: none;
+    }
+
+    /* DON PHONE RESPONSIVE */
+    .donPhone {
+        display: none;
+    }
+
+    /* MENU PHONE RESPONSIVE */
+    .menuPhone {
+        display: none;
+    }
+
+    ul li .ligne {
+        line-height: 70px;
+        margin: 0 20px;
+    }
+
+    ul li a {
+        color: #555;
+        text-decoration: none;
+    }
+
+    ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    ul li a.active {
+        color: #1cabe2;
+    }
+
+    ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav ul li.donateur {
+        /* height: 100%; */
+        background-color: #1cabe2;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: -27px;
+    }
+
+    nav ul li.donateur:hover {
+        background-color: #098dc0;
+
+    }
+
+    nav ul li.donateur a {
+        color: #fff;
+    }
+
+    nav ul li.don {
+        /* height: 100%; */
+        background-color: #ff8d41;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: -5px;
+    }
+
+    nav ul li.don:hover {
+        background-color: #ec7a2e;
+    }
+
+    nav ul li.don a {
+        color: #fff;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1067px) {
+
+
+    /* -------------------------------------HEADER */
+    header {
+        position: fixed;
+        z-index: 999;
+
+    }
+
+
+
+    /*-------------------------------------- PETIT NAV OU AVANT MENU */
+
+    .navbarpetit {
+        display: grid;
+        grid-template-columns: 16% 48% 36%;
+        height: 35px;
+        width: 100%;
+        line-height: 35px;
+        background-color: #fff;
+    }
+
+    .portail {
+        height: 35px;
+        width: 100%;
+        font-size: 11px;
+        background-color: #ddf2fb;
+        padding-left: 15px;
+    }
+
+    .portail .farbe {
+        color: #555;
+    }
+
+    .portail:hover {
+        background-color: #1cabe2;
+    }
+
+    .portail a {
+        text-decoration: none;
+    }
+
+    .portail a:hover {
+        color: #fff;
+    }
+
+    .droite ul {
+        list-style: none;
+    }
+
+    .droite ul li {
+        display: inline-block;
+    }
+
+    .droite ul li a {
+        font-size: 10px;
+        font-style: normal;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .droite a {
+        color: #222;
+        text-decoration: none;
+    }
+
+    .droite a:hover {
+        color: #35b5ff;
+    }
+
+    .droite small {
+        color: gray;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* RESPONSIVE */
+    .navbarpetitPhone {
+        display: none;
+    }
+
+
+
+    /*-------------------------------------- NAV OU MENU PRINCIPAL */
+
+    nav.nav-principal {
+        height: 70px;
+        width: 100%;
+        top: 0;
+        margin: 0px;
+        background-color: #fff;
+        border-top: 1px solid #2222;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a .logo {
+        height: 70px;
+        width: 100px;
+        margin-left: 10px;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a {
+        text-decoration: none;
+        color: #555;
+    }
+
+    nav.nav-principal ul {
+        list-style: none;
+        float: right;
+    }
+
+    nav.nav-principal ul li {
+        display: inline-block;
+        margin: 0 13px;
+        line-height: 70px;
+        font-size: 12px;
+    }
+
+    nav.nav-principal ul li a {
+        color: #555;
+    }
+
+    nav.nav-principal ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav.nav-principal ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a.active {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    /* MENU HAMBURGER */
+    nav.nav-principal .menuHamburger {
+        display: none;
+    }
+
+    /* DON PHONE RESPONSIVE */
+    .donPhone {
+        display: none;
+    }
+
+    /* MENU PHONE RESPONSIVE */
+    .menuPhone {
+        display: none;
+    }
+
+    ul li .ligne {
+        line-height: 70px;
+        margin: 0 20px;
+    }
+
+    ul li a {
+        color: #555;
+        text-decoration: none;
+    }
+
+    ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    ul li a.active {
+        color: #1cabe2;
+    }
+
+    ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav ul li.donateur {
+        /* height: 100%; */
+        background-color: #1cabe2;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: -27px;
+    }
+
+    nav ul li.donateur:hover {
+        background-color: #098dc0;
+
+    }
+
+    nav ul li.donateur a {
+        color: #fff;
+    }
+
+    nav ul li.don {
+        /* height: 100%; */
+        background-color: #ff8d41;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: -5px;
+    }
+
+    nav ul li.don:hover {
+        background-color: #ec7a2e;
+    }
+
+    nav ul li.don a {
+        color: #fff;
+    }
+
+
+
+    /*------------------------------------------------ PAGE HOME */
+
+
+    /*----------- CAROUSEL */
+
+    .p-homePhone {
+        margin-top: 80px;
+    }
+
+
+
+
+    /*------------- START */
+
+    section .slogan-am h2 {
+        padding: 100px 0 100px 0;
+        font-size: 33px;
+        font-family: 'Fjalla One';
+        font-weight: 700;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    section .slogan-am h2 span {
+        font-family: 'Fjalla One';
+        color: #1cabe2;
+    }
+
+    section.p-home {
+        margin-top: 110px;
+    }
+
+    section {
+        margin: 0 20px 0 20px;
+    }
+
+    .custom-btn:hover {
+        background-color: #098dc0;
+        color: #fff;
+    }
+
+
+
+
+    /*--------- ACTUALITE */
+
+    section .actualite1 a {
+        text-decoration: none;
+        /* font-size: 13px; */
+        text-transform: uppercase;
+        /* height: 60px;
+    width: 302px; */
+        background-color: #1cabe2;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    section .actualite1 a:hover {
+        background-color: #098dc0;
+    }
+
+    .p-actualite {
+        background-color: #f7f9fa;
+        height: 100%;
+        width: 100%;
+    }
+
+    section h2 {
+        padding-bottom: 15px;
+    }
+
+    section .cardActualite {
+        padding-bottom: 30px;
+        height: 100%px;
+        width: 50%;
+    }
+
+    section h6 {
+        background-color: #1cabe2;
+        height: 30px;
+        width: 110px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+
+    /*----------------------------------------- ALL NEWS */
+
+    section.p-all-news {
+        margin-top: 80px;
+        height: 100%;
+        width: 50%;
+    }
+
+    .all-news {
+        background-color: #f7f9fa;
+    }
+
+    section.p-all-news .row .col-4 h5 {
+        margin-top: 10px;
+        background-color: #1cabe2;
+        color: #fff;
+        height: 40px;
+        width: 150px;
+        line-height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+
+
+
+    /*------------NOS ACTIONS */
+
+    .p-action {
+        margin: 0;
+        /* display: flex;
+    align-items: center; */
+    }
+
+    .p-action .nosAction1 {
+        padding-bottom: 25px;
+    }
+
+    /* .p-action .nosAction1 a {
+    padding-left: 20px;
+    padding-right: 20px;
+} */
+
+
+
+    .p-action .row .col-md-3 .actioncolor {
+        background-color: #1cabe2;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 25px;
+        color: #fff;
+    }
+
+    .p-action .row .col-md-3 i {
+        font-size: 25px;
+        border: 1px solid #fff;
+        padding: 15px;
+        border-radius: 100%;
+        margin: 30px 0 40px 30px;
+    }
+
+    .p-action .row .col-md-3 h5 {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .p-action .row .col-md-3 p {
+        margin-left: 20px;
+        font-size: 13px;
+
+    }
+
+    .p-action .row .col-md-3 a {
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 15px 30px 15px 30px;
+        background-color: #fff;
+        color: #1cabe2;
+        margin-left: 20px;
+    }
+
+
+
+
+
+
+
+
+    /* LES SYMBOLES */
+    /* .p-action .row .col-md-3 i {
+    font-size: 25px;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 100%;
+    margin: 15px 0 20px 20px;
+}
+
+.p-action .row .col-md-3 h5 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.p-action .row .col-md-3 p {
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.p-action .row .col-md-3 a {
+    padding: 15px 10px 15px 10px;
+    margin-top: 0;
+}
+
+.p-action .row .col-md-3 a:hover {
+    background-color: #ddf2fb
+} */
+
+    .p-action .row .col-md-3 .instruction {
+        margin-top: 10px;
+    }
+
+    .p-action .row .col-md-3 .medicament {
+        margin-top: 10px;
+    }
+
+    .p-action .row .col-md-3 .hebergement {
+        margin-top: 10px;
+    }
+
+    .p-action .row .col-md-3 .participation {
+        margin-top: 10px;
+    }
+
+
+
+
+    /* -----------BENEVOLE */
+
+    .p-benevole {
+        background-color: #ddf2fb;
+        height: 870px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+
+    /* -------------DONATION HOME */
+
+    .p-donation {
+        background-color: #eef3f6;
+        height: 900px;
+        width: 100%;
+    }
+
+    .p-donation h2 {
+        padding: 20px;
+    }
+
+    .p-donation .dona-don {
+        color: #fff;
+        background-color: #1cabe2;
+        height: 300px;
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .p-donation a {
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 15px 30px 15px 30px;
+        background-color: #fff;
+        color: #1cabe2;
+        margin-top: 1px;
+    }
+
+    .p-donation a:hover {
+        background-color: #fff;
+    }
+
+
+    /* -----------------------------------------ESPACE DONATEUR */
+
+
+
+
+
+
+
+
+    /*-----------NEWSLETTER */
+
+    .p-newsletter {
+        background-color: #ddf2fb;
+        height: 320px;
+        width: 100%;
+    }
+
+    .p-newsletter .row {
+        padding-top: 30px;
+    }
+
+    .p-newsletter section ul.r-social li {
+        display: inline-block;
+    }
+
+    .p-newsletter section ul li i {
+        margin-right: 15px;
+        font-size: 16px;
+        border: 1px solid #1cabe2;
+        padding: 15px 17px 15px 17px;
+        border-radius: 100%;
+    }
+
+    .p-newsletter section ul li i:hover {
+        color: #ec7a2e;
+        border: 1px solid #ff8d41;
+    }
+
+    .p-newsletter section p {
+        font-size: 12px;
+        color: #555;
+    }
+
+
+
+    /*----------------------------------------- PAGE CONTANCT */
+
+
+    section h1.contact {
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    section div.container {
+        max-width: 570px;
+        /* margin: 0 auto; */
+        padding: 20px;
+    }
+
+    section div form input[type="submit"] {
+        padding: 12px 44%;
+    }
+
+
+    section div.container img {
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+
+
+
+    /*--------------------------------------------------- FAQ */
+
+
+    section h1.faq {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    section main div.faq-item {
+        margin-bottom: 20px;
+    }
+
+    section main div.faq-item h2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    section main div.faq-item dl {
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+    section main div.faq-item dl dt {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    section main div.faq-item dl dd {
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    section main div ul {
+        list-style-type: none;
+        margin-left: 20px;
+    }
+
+    section main div ul li {
+        margin-top: 5px;
+    }
+
+
+
+
+    /*------------------------------------------------- FOOTER */
+
+    footer {
+        padding-top: 50px;
+    }
+
+    footer .about-am img {
+        height: 80px;
+        width: 160px;
+    }
+
+    footer div ul {
+        list-style-type: none;
+        padding: 0;
+
+    }
+
+    footer .about-am i {
+        font-size: 20px;
+        color: #1cabe2;
+        margin-right: 10px;
+    }
+
+    footer .about-am i.fa-phone {
+        transform: rotate(110deg);
+
+    }
+
+    footer .soutenir-am i {
+        font-size: 40px;
+        color: #1cabe2;
+        margin-right: 15px;
+    }
+
+    footer .soutenir-am i:hover {
+        color: #098dc0;
+    }
+
+    footer .soutenir-am p {
+        color: #555
+    }
+
+    footer .row ul li a {
+        text-decoration: none;
+        color: #555;
+        font-weight: 100;
+        line-height: 2;
+    }
+
+    footer .row ul li a:hover {
+        color: #1cabe2;
+
+    }
+
+
+    /* ------------------------FOOTBAND --------------------------------*/
+
+
+    footer .footband {
+        background-color: rgb(78, 72, 72);
+        font-size: 10px;
+        text-align: center;
+    }
+
+    footer .footband ul {
+        list-style: none;
+        padding: 20px;
+    }
+
+    footer .footband ul li {
+        /* display: inline-block; */
+        /* margin-right: 30px; */
+        padding: 7px 0 7px 0;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        /* display: inline-block;
+    width: unset; */
+    }
+
+    footer .footband ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    footer .footband ul li a:hover {
+        color: #1cabe2;
+    }
+
+
+
+    /*------------------------------------------------- FOOTER */
+
+}
+
+@media screen and (min-width: 1067px) and (max-width: 1108px) {
+
+    /* -------------------------------------HEADER */
+    header {
+        position: fixed;
+        z-index: 999;
+
+    }
+
+
+
+    /*-------------------------------------- PETIT NAV OU AVANT MENU */
+
+    .navbarpetit {
+        display: grid;
+        grid-template-columns: 16% 49% 35%;
+        height: 35px;
+        width: 100%;
+        line-height: 35px;
+        background-color: #fff;
+    }
+
+    .portail {
+        height: 35px;
+        width: 100%;
+        font-size: 11px;
+        background-color: #ddf2fb;
+        padding-left: 15px;
+    }
+
+    .portail .farbe {
+        color: #555;
+    }
+
+    .portail:hover {
+        background-color: #1cabe2;
+    }
+
+    .portail a {
+        text-decoration: none;
+    }
+
+    .portail a:hover {
+        color: #fff;
+    }
+
+    .droite ul {
+        list-style: none;
+    }
+
+    .droite ul li {
+        display: inline-block;
+    }
+
+    .droite ul li a {
+        font-size: 10px;
+        font-style: normal;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .droite a {
+        color: #222;
+        text-decoration: none;
+    }
+
+    .droite a:hover {
+        color: #35b5ff;
+    }
+
+    .droite small {
+        color: gray;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* RESPONSIVE */
+    .navbarpetitPhone {
+        display: none;
+    }
+
+
+
+    /*-------------------------------------- NAV OU MENU PRINCIPAL */
+
+    nav.nav-principal {
+        height: 70px;
+        width: 100%;
+        top: 0;
+        margin: 0px;
+        background-color: #fff;
+        border-top: 1px solid #2222;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a .logo {
+        height: 70px;
+        width: 100px;
+        margin-left: 10px;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a {
+        text-decoration: none;
+        color: #555;
+    }
+
+    nav.nav-principal ul {
+        list-style: none;
+        float: right;
+    }
+
+    nav.nav-principal ul li {
+        display: inline-block;
+        margin: 0 5px;
+        line-height: 70px;
+        font-size: 13px;
+    }
+
+    nav.nav-principal ul li a {
+        color: #555;
+    }
+
+    nav.nav-principal ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav.nav-principal ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a.active {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    /* MENU HAMBURGER */
+    nav.nav-principal .menuHamburger {
+        display: none;
+    }
+
+    /* DON PHONE RESPONSIVE */
+    .donPhone {
+        display: none;
+    }
+
+    /* MENU PHONE RESPONSIVE */
+    .menuPhone {
+        display: none;
+    }
+
+    ul li .ligne {
+        line-height: 70px;
+        margin: 0 20px;
+    }
+
+    ul li a {
+        color: #555;
+        text-decoration: none;
+    }
+
+    ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    ul li a.active {
+        color: #1cabe2;
+    }
+
+    ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav ul li.donateur {
+        /* height: 100%; */
+        background-color: #1cabe2;
+        padding-left: 17px;
+        padding-right: 17px;
+        margin-right: -20px;
+    }
+
+    nav ul li.donateur:hover {
+        background-color: #098dc0;
+
+    }
+
+    nav ul li.donateur a {
+        color: #fff;
+    }
+
+    nav ul li.don {
+        /* height: 100%; */
+        background-color: #ff8d41;
+        padding-left: 17px;
+        padding-right: 17px;
+        margin-right: -5px;
+    }
+
+    nav ul li.don:hover {
+        background-color: #ec7a2e;
+    }
+
+    nav ul li.don a {
+        color: #fff;
+    }
+
+
+
+
+
+    /*------------------------------------------------ PAGE HOME */
+
+
+    /*----------- CAROUSEL */
+
+    .p-homePhone {
+        margin-top: 80px;
+    }
+
+
+
+
+    /*------------- START */
+
+    section .slogan-am h2 {
+        padding: 100px 0 100px 0;
+        font-size: 33px;
+        font-family: 'Fjalla One';
+        font-weight: 700;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    section .slogan-am h2 span {
+        font-family: 'Fjalla One';
+        color: #1cabe2;
+    }
+
+    section.p-home {
+        margin-top: 110px;
+    }
+
+    section {
+        margin: 0 20px 0 20px;
+    }
+
+    .custom-btn:hover {
+        background-color: #098dc0;
+        color: #fff;
+    }
+
+
+
+
+    /*--------- ACTUALITE */
+
+    section .actualite1 a {
+        text-decoration: none;
+        /* font-size: 13px; */
+        text-transform: uppercase;
+        /* height: 60px;
+width: 302px; */
+        background-color: #1cabe2;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    section .actualite1 a:hover {
+        background-color: #098dc0;
+    }
+
+    .p-actualite {
+        background-color: #f7f9fa;
+        height: 100%;
+        width: 100%;
+    }
+
+    section h2 {
+        padding-bottom: 15px;
+    }
+
+    section .cardActualite {
+        padding-bottom: 30px;
+        height: 100%px;
+        width: 50%;
+    }
+
+    section h6 {
+        background-color: #1cabe2;
+        height: 30px;
+        width: 110px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+
+    /*----------------------------------------- ALL NEWS */
+
+    section.p-all-news {
+        margin-top: 80px;
+        height: 100%;
+        width: 50%;
+    }
+
+    .all-news {
+        background-color: #f7f9fa;
+    }
+
+    section.p-all-news .row .col-4 h5 {
+        margin-top: 10px;
+        background-color: #1cabe2;
+        color: #fff;
+        height: 40px;
+        width: 150px;
+        line-height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+
+
+
+    /*------------NOS ACTIONS */
+
+    .p-action {
+        margin: 0;
+        /* display: flex;
+align-items: center; */
+    }
+
+    .p-action .nosAction1 {
+        padding-bottom: 25px;
+    }
+
+    /* .p-action .nosAction1 a {
+padding-left: 20px;
+padding-right: 20px;
+} */
+
+
+
+    .p-action .row .col-md-3 .actioncolor {
+        background-color: #1cabe2;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 25px;
+        color: #fff;
+    }
+
+    .p-action .row .col-md-3 i {
+        font-size: 25px;
+        border: 1px solid #fff;
+        padding: 15px;
+        border-radius: 100%;
+        margin: 30px 0 40px 30px;
+    }
+
+    .p-action .row .col-md-3 h5 {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .p-action .row .col-md-3 p {
+        margin-left: 20px;
+        font-size: 13px;
+
+    }
+
+    .p-action .row .col-md-3 a {
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 15px 30px 15px 30px;
+        background-color: #fff;
+        color: #1cabe2;
+        margin-left: 20px;
+    }
+
+
+
+
+
+
+
+
+    /* LES SYMBOLES */
+    /* .p-action .row .col-md-3 i {
+font-size: 25px;
+border: 1px solid #fff;
+padding: 15px;
+border-radius: 100%;
+margin: 15px 0 20px 20px;
+}
+
+.p-action .row .col-md-3 h5 {
+margin-left: 20px;
+margin-bottom: 10px;
+}
+
+.p-action .row .col-md-3 p {
+margin-left: 20px;
+font-size: 13px;
+}
+
+.p-action .row .col-md-3 a {
+padding: 15px 10px 15px 10px;
+margin-top: 0;
+}
+
+.p-action .row .col-md-3 a:hover {
+background-color: #ddf2fb
+} */
+
+    .p-action .row .col-md-3 .instruction {
+        margin-top: 10px;
+    }
+
+    .p-action .row .col-md-3 .medicament {
+        margin-top: 10px;
+    }
+
+    .p-action .row .col-md-3 .hebergement {
+        margin-top: 10px;
+    }
+
+    .p-action .row .col-md-3 .participation {
+        margin-top: 10px;
+    }
+
+
+
+
+    /* -----------BENEVOLE */
+
+    .p-benevole {
+        background-color: #ddf2fb;
+        height: 870px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+
+    /* -------------DONATION HOME */
+
+    .p-donation {
+        background-color: #eef3f6;
+        height: 900px;
+        width: 100%;
+    }
+
+    .p-donation h2 {
+        padding: 20px;
+    }
+
+    .p-donation .dona-don {
+        color: #fff;
+        background-color: #1cabe2;
+        height: 300px;
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .p-donation a {
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 15px 30px 15px 30px;
+        background-color: #fff;
+        color: #1cabe2;
+        margin-top: 1px;
+    }
+
+    .p-donation a:hover {
+        background-color: #fff;
+    }
+
+
+    /* -----------------------------------------ESPACE DONATEUR */
+
+
+
+
+
+
+
+
+    /*-----------NEWSLETTER */
+
+    .p-newsletter {
+        background-color: #ddf2fb;
+        height: 320px;
+        width: 100%;
+    }
+
+    .p-newsletter .row {
+        padding-top: 30px;
+    }
+
+    .p-newsletter section ul.r-social li {
+        display: inline-block;
+    }
+
+    .p-newsletter section ul li i {
+        margin-right: 15px;
+        font-size: 16px;
+        border: 1px solid #1cabe2;
+        padding: 15px 17px 15px 17px;
+        border-radius: 100%;
+    }
+
+    .p-newsletter section ul li i:hover {
+        color: #ec7a2e;
+        border: 1px solid #ff8d41;
+    }
+
+    .p-newsletter section p {
+        font-size: 12px;
+        color: #555;
+    }
+
+
+
+    /*----------------------------------------- PAGE CONTANCT */
+
+
+    section h1.contact {
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    section div.container {
+        max-width: 570px;
+        /* margin: 0 auto; */
+        padding: 20px;
+    }
+
+    section div form input[type="submit"] {
+        padding: 12px 44%;
+    }
+
+
+    section div.container img {
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+
+
+
+    /*--------------------------------------------------- FAQ */
+
+
+    section h1.faq {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    section main div.faq-item {
+        margin-bottom: 20px;
+    }
+
+    section main div.faq-item h2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    section main div.faq-item dl {
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+    section main div.faq-item dl dt {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    section main div.faq-item dl dd {
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    section main div ul {
+        list-style-type: none;
+        margin-left: 20px;
+    }
+
+    section main div ul li {
+        margin-top: 5px;
+    }
+
+
+
+
+    /*------------------------------------------------- FOOTER */
+
+    footer {
+        padding-top: 50px;
+    }
+
+    footer .about-am img {
+        height: 80px;
+        width: 160px;
+    }
+
+    footer div ul {
+        list-style-type: none;
+        padding: 0;
+
+    }
+
+    footer .about-am i {
+        font-size: 20px;
+        color: #1cabe2;
+        margin-right: 10px;
+    }
+
+    footer .about-am i.fa-phone {
+        transform: rotate(110deg);
+
+    }
+
+    footer .soutenir-am i {
+        font-size: 40px;
+        color: #1cabe2;
+        margin-right: 15px;
+    }
+
+    footer .soutenir-am i:hover {
+        color: #098dc0;
+    }
+
+    footer .soutenir-am p {
+        color: #555
+    }
+
+    footer .row ul li a {
+        text-decoration: none;
+        color: #555;
+        font-weight: 100;
+        line-height: 2;
+    }
+
+    footer .row ul li a:hover {
+        color: #1cabe2;
+
+    }
+
+
+    /* ------------------------FOOTBAND --------------------------------*/
+
+
+    footer .footband {
+        background-color: rgb(78, 72, 72);
+        font-size: 10px;
+        text-align: center;
+    }
+
+    footer .footband ul {
+        list-style: none;
+        padding: 20px;
+    }
+
+    footer .footband ul li {
+        /* display: inline-block; */
+        /* margin-right: 30px; */
+        padding: 7px 0 7px 0;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        /* display: inline-block;
+width: unset; */
+    }
+
+    footer .footband ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    footer .footband ul li a:hover {
+        color: #1cabe2;
+    }
+
+
+
+    /*------------------------------------------------- FOOTER */
+
+}
+
+@media screen and (min-width: 1108px) and (max-width: 1120px) {
+
+    /* -------------------------------------HEADER */
+    header {
+        position: fixed;
+        z-index: 999;
+
+    }
+
+
+
+    /*-------------------------------------- PETIT NAV OU AVANT MENU */
+
+    .navbarpetit {
+        display: grid;
+        grid-template-columns: 16% 50% 34%;
+        height: 35px;
+        width: 100%;
+        line-height: 35px;
+        background-color: #fff;
+    }
+
+    .portail {
+        height: 35px;
+        width: 100%;
+        font-size: 11px;
+        background-color: #ddf2fb;
+        padding-left: 15px;
+    }
+
+    .portail .farbe {
+        color: #555;
+    }
+
+    .portail:hover {
+        background-color: #1cabe2;
+    }
+
+    .portail a {
+        text-decoration: none;
+    }
+
+    .portail a:hover {
+        color: #fff;
+    }
+
+    .droite ul {
+        list-style: none;
+    }
+
+    .droite ul li {
+        display: inline-block;
+    }
+
+    .droite ul li a {
+        font-size: 10px;
+        font-style: normal;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .droite a {
+        color: #222;
+        text-decoration: none;
+    }
+
+    .droite a:hover {
+        color: #35b5ff;
+    }
+
+    .droite small {
+        color: gray;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* RESPONSIVE */
+    .navbarpetitPhone {
+        display: none;
+    }
+
+
+
+    /*-------------------------------------- NAV OU MENU PRINCIPAL */
+
+    nav.nav-principal {
+        height: 70px;
+        width: 100%;
+        top: 0;
+        margin: 0px;
+        background-color: #fff;
+        border-top: 1px solid #2222;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a .logo {
+        height: 70px;
+        width: 110px;
+        margin-left: 10px;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a {
+        text-decoration: none;
+        color: #555;
+    }
+
+    nav.nav-principal ul {
+        list-style: none;
+        float: right;
+    }
+
+    nav.nav-principal ul li {
+        display: inline-block;
+        margin: 0 14px;
+        line-height: 70px;
+        font-size: 13px;
+    }
+
+    nav.nav-principal ul li a {
+        color: #555;
+    }
+
+    nav.nav-principal ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav.nav-principal ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a.active {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    /* MENU HAMBURGER */
+    nav.nav-principal .menuHamburger {
+        display: none;
+    }
+
+    /* DON PHONE RESPONSIVE */
+    .donPhone {
+        display: none;
+    }
+
+    /* MENU PHONE RESPONSIVE */
+    .menuPhone {
+        display: none;
+    }
+
+    ul li .ligne {
+        line-height: 70px;
+        margin: 0 20px;
+    }
+
+    ul li a {
+        color: #555;
+        text-decoration: none;
+    }
+
+    ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    ul li a.active {
+        color: #1cabe2;
+    }
+
+    ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav ul li.donateur {
+        /* height: 100%; */
+        background-color: #1cabe2;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: -27px;
+    }
+
+    nav ul li.donateur:hover {
+        background-color: #098dc0;
+
+    }
+
+    nav ul li.donateur a {
+        color: #fff;
+    }
+
+    nav ul li.don {
+        /* height: 100%; */
+        background-color: #ff8d41;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: -5px;
+    }
+
+    nav ul li.don:hover {
+        background-color: #ec7a2e;
+    }
+
+    nav ul li.don a {
+        color: #fff;
+    }
+
+
+
+
+
+    /*------------------------------------------------ PAGE HOME */
+
+
+    /*----------- CAROUSEL */
+
+    .p-homePhone {
+        margin-top: 80px;
+    }
+
+
+
+
+    /*------------- START */
+
+    section .slogan-am h2 {
+        padding: 100px 0 100px 0;
+        font-size: 33px;
+        font-family: 'Fjalla One';
+        font-weight: 700;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    section .slogan-am h2 span {
+        font-family: 'Fjalla One';
+        color: #1cabe2;
+    }
+
+    section.p-home {
+        margin-top: 110px;
+    }
+
+    section {
+        margin: 0 20px 0 20px;
+    }
+
+    .custom-btn:hover {
+        background-color: #098dc0;
+        color: #fff;
+    }
+
+
+
+
+    /*--------- ACTUALITE */
+
+    section .actualite1 a {
+        text-decoration: none;
+        /* font-size: 13px; */
+        text-transform: uppercase;
+        /* height: 60px;
+width: 302px; */
+        background-color: #1cabe2;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    section .actualite1 a:hover {
+        background-color: #098dc0;
+    }
+
+    .p-actualite {
+        background-color: #f7f9fa;
+        height: 100%;
+        width: 100%;
+    }
+
+    section h2 {
+        padding-bottom: 15px;
+    }
+
+    section .cardActualite {
+        padding-bottom: 30px;
+        height: 100%px;
+        width: 50%;
+    }
+
+    section h6 {
+        background-color: #1cabe2;
+        height: 30px;
+        width: 110px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+
+    /*----------------------------------------- ALL NEWS */
+
+    section.p-all-news {
+        margin-top: 80px;
+        height: 100%;
+        width: 50%;
+    }
+
+    .all-news {
+        background-color: #f7f9fa;
+    }
+
+    section.p-all-news .row .col-4 h5 {
+        margin-top: 10px;
+        background-color: #1cabe2;
+        color: #fff;
+        height: 40px;
+        width: 150px;
+        line-height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+
+
+
+    /*------------NOS ACTIONS */
+
+    .p-action {
+        margin: 0;
+        /* display: flex;
+align-items: center; */
+    }
+
+    .p-action .nosAction1 {
+        padding-bottom: 25px;
+    }
+
+    /* .p-action .nosAction1 a {
+padding-left: 20px;
+padding-right: 20px;
+} */
+
+
+
+    .p-action .row .col-md-3 .actioncolor {
+        background-color: #1cabe2;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 25px;
+        color: #fff;
+    }
+
+    .p-action .row .col-md-3 i {
+        font-size: 25px;
+        border: 1px solid #fff;
+        padding: 15px;
+        border-radius: 100%;
+        margin: 30px 0 40px 30px;
+    }
+
+    .p-action .row .col-md-3 h5 {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .p-action .row .col-md-3 p {
+        margin-left: 20px;
+        font-size: 13px;
+
+    }
+
+    .p-action .row .col-md-3 a {
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 15px 30px 15px 30px;
+        background-color: #fff;
+        color: #1cabe2;
+        margin-left: 20px;
+    }
+
+
+
+
+
+
+
+
+    /* LES SYMBOLES */
+    /* .p-action .row .col-md-3 i {
+font-size: 25px;
+border: 1px solid #fff;
+padding: 15px;
+border-radius: 100%;
+margin: 15px 0 20px 20px;
+}
+
+.p-action .row .col-md-3 h5 {
+margin-left: 20px;
+margin-bottom: 10px;
+}
+
+.p-action .row .col-md-3 p {
+margin-left: 20px;
+font-size: 13px;
+}
+
+.p-action .row .col-md-3 a {
+padding: 15px 10px 15px 10px;
+margin-top: 0;
+}
+
+.p-action .row .col-md-3 a:hover {
+background-color: #ddf2fb
+} */
+
+    .p-action .row .col-md-3 .instruction {
+        margin-top: 10px;
+    }
+
+    .p-action .row .col-md-3 .medicament {
+        margin-top: 10px;
+    }
+
+    .p-action .row .col-md-3 .hebergement {
+        margin-top: 10px;
+    }
+
+    .p-action .row .col-md-3 .participation {
+        margin-top: 10px;
+    }
+
+
+
+
+    /* -----------BENEVOLE */
+
+    .p-benevole {
+        background-color: #ddf2fb;
+        height: 870px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+
+    /* -------------DONATION HOME */
+
+    .p-donation {
+        background-color: #eef3f6;
+        height: 900px;
+        width: 100%;
+    }
+
+    .p-donation h2 {
+        padding: 20px;
+    }
+
+    .p-donation .dona-don {
+        color: #fff;
+        background-color: #1cabe2;
+        height: 300px;
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .p-donation a {
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 15px 30px 15px 30px;
+        background-color: #fff;
+        color: #1cabe2;
+        margin-top: 1px;
+    }
+
+    .p-donation a:hover {
+        background-color: #fff;
+    }
+
+
+    /* -----------------------------------------ESPACE DONATEUR */
+
+
+
+
+
+
+
+
+    /*-----------NEWSLETTER */
+
+    .p-newsletter {
+        background-color: #ddf2fb;
+        height: 320px;
+        width: 100%;
+    }
+
+    .p-newsletter .row {
+        padding-top: 30px;
+    }
+
+    .p-newsletter section ul.r-social li {
+        display: inline-block;
+    }
+
+    .p-newsletter section ul li i {
+        margin-right: 15px;
+        font-size: 16px;
+        border: 1px solid #1cabe2;
+        padding: 15px 17px 15px 17px;
+        border-radius: 100%;
+    }
+
+    .p-newsletter section ul li i:hover {
+        color: #ec7a2e;
+        border: 1px solid #ff8d41;
+    }
+
+    .p-newsletter section p {
+        font-size: 12px;
+        color: #555;
+    }
+
+
+
+    /*----------------------------------------- PAGE CONTANCT */
+
+
+    section h1.contact {
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    section div.container {
+        max-width: 570px;
+        /* margin: 0 auto; */
+        padding: 20px;
+    }
+
+    section div form input[type="submit"] {
+        padding: 12px 44%;
+    }
+
+
+    section div.container img {
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+
+
+
+    /*--------------------------------------------------- FAQ */
+
+
+    section h1.faq {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    section main div.faq-item {
+        margin-bottom: 20px;
+    }
+
+    section main div.faq-item h2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    section main div.faq-item dl {
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+    section main div.faq-item dl dt {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    section main div.faq-item dl dd {
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    section main div ul {
+        list-style-type: none;
+        margin-left: 20px;
+    }
+
+    section main div ul li {
+        margin-top: 5px;
+    }
+
+
+
+
+    /*------------------------------------------------- FOOTER */
+
+    footer {
+        padding-top: 50px;
+    }
+
+    footer .about-am img {
+        height: 80px;
+        width: 160px;
+    }
+
+    footer div ul {
+        list-style-type: none;
+        padding: 0;
+
+    }
+
+    footer .about-am i {
+        font-size: 20px;
+        color: #1cabe2;
+        margin-right: 10px;
+    }
+
+    footer .about-am i.fa-phone {
+        transform: rotate(110deg);
+
+    }
+
+    footer .soutenir-am i {
+        font-size: 40px;
+        color: #1cabe2;
+        margin-right: 15px;
+    }
+
+    footer .soutenir-am i:hover {
+        color: #098dc0;
+    }
+
+    footer .soutenir-am p {
+        color: #555
+    }
+
+    footer .row ul li a {
+        text-decoration: none;
+        color: #555;
+        font-weight: 100;
+        line-height: 2;
+    }
+
+    footer .row ul li a:hover {
+        color: #1cabe2;
+
+    }
+
+
+    /* ------------------------FOOTBAND --------------------------------*/
+
+
+    footer .footband {
+        background-color: rgb(78, 72, 72);
+        font-size: 10px;
+        text-align: center;
+    }
+
+    footer .footband ul {
+        list-style: none;
+        padding: 20px;
+    }
+
+    footer .footband ul li {
+        /* display: inline-block; */
+        /* margin-right: 30px; */
+        padding: 7px 0 7px 0;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        /* display: inline-block;
+width: unset; */
+    }
+
+    footer .footband ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    footer .footband ul li a:hover {
+        color: #1cabe2;
+    }
+
+}
+
+@media screen and (min-width: 1120px) and (max-width: 1163px) {
+
+    /* -------------------------------------HEADER */
+    header {
+        position: fixed;
+        z-index: 999;
+
+    }
+
+
+
+    /*-------------------------------------- PETIT NAV OU AVANT MENU */
+
+    .navbarpetit {
+        display: grid;
+        grid-template-columns: 13% 53% 34%;
+        height: 35px;
+        width: 100%;
+        line-height: 35px;
+        background-color: #fff;
+    }
+
+    .portail {
+        height: 35px;
+        width: 100%;
+        font-size: 11px;
+        background-color: #ddf2fb;
+        padding-left: 15px;
+    }
+
+    .portail .farbe {
+        color: #555;
+    }
+
+    .portail:hover {
+        background-color: #1cabe2;
+    }
+
+    .portail a {
+        text-decoration: none;
+    }
+
+    .portail a:hover {
+        color: #fff;
+    }
+
+    .droite ul {
+        list-style: none;
+    }
+
+    .droite ul li {
+        display: inline-block;
+    }
+
+    .droite ul li a {
+        font-size: 10px;
+        font-style: normal;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .droite a {
+        color: #222;
+        text-decoration: none;
+    }
+
+    .droite a:hover {
+        color: #35b5ff;
+    }
+
+    .droite small {
+        color: gray;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* RESPONSIVE */
+    .navbarpetitPhone {
+        display: none;
+    }
+
+
+
+    /*-------------------------------------- NAV OU MENU PRINCIPAL */
+
+    nav.nav-principal {
+        height: 70px;
+        width: 100%;
+        top: 0;
+        margin: 0px;
+        background-color: #fff;
+        border-top: 1px solid #2222;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a .logo {
+        height: 70px;
+        width: 110px;
+        margin-left: 10px;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a {
+        text-decoration: none;
+        color: #555;
+    }
+
+    nav.nav-principal ul {
+        list-style: none;
+        float: right;
+    }
+
+    nav.nav-principal ul li {
+        display: inline-block;
+        margin: 0 14px;
+        line-height: 70px;
+        font-size: 13px;
+    }
+
+    nav.nav-principal ul li a {
+        color: #555;
+    }
+
+    nav.nav-principal ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav.nav-principal ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a.active {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    /* MENU HAMBURGER */
+    nav.nav-principal .menuHamburger {
+        display: none;
+    }
+
+    /* DON PHONE RESPONSIVE */
+    .donPhone {
+        display: none;
+    }
+
+    /* MENU PHONE RESPONSIVE */
+    .menuPhone {
+        display: none;
+    }
+
+    ul li .ligne {
+        line-height: 70px;
+        margin: 0 20px;
+    }
+
+    ul li a {
+        color: #555;
+        text-decoration: none;
+    }
+
+    ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    ul li a.active {
+        color: #1cabe2;
+    }
+
+    ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav ul li.donateur {
+        /* height: 100%; */
+        background-color: #1cabe2;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: -27px;
+    }
+
+    nav ul li.donateur:hover {
+        background-color: #098dc0;
+
+    }
+
+    nav ul li.donateur a {
+        color: #fff;
+    }
+
+    nav ul li.don {
+        /* height: 100%; */
+        background-color: #ff8d41;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: -5px;
+    }
+
+    nav ul li.don:hover {
+        background-color: #ec7a2e;
+    }
+
+    nav ul li.don a {
+        color: #fff;
+    }
+
+
+
+
+    /*------------------------------------------------ PAGE HOME */
+
+}
+
+@media screen and (min-width: 1163px) and (max-width: 1208px) {
+
+    /* -------------------------------------HEADER */
+    header {
+        position: fixed;
+        z-index: 999;
+
+    }
+
+
+
+    /*-------------------------------------- PETIT NAV OU AVANT MENU */
+
+    .navbarpetit {
+        display: grid;
+        grid-template-columns: 13% 55% 32%;
+        height: 35px;
+        width: 100%;
+        line-height: 35px;
+        background-color: #fff;
+    }
+
+    .portail {
+        height: 35px;
+        width: 100%;
+        font-size: 11px;
+        background-color: #ddf2fb;
+        padding-left: 15px;
+    }
+
+    .portail .farbe {
+        color: #555;
+    }
+
+    .portail:hover {
+        background-color: #1cabe2;
+    }
+
+    .portail a {
+        text-decoration: none;
+    }
+
+    .portail a:hover {
+        color: #fff;
+    }
+
+    .droite ul {
+        list-style: none;
+    }
+
+    .droite ul li {
+        display: inline-block;
+    }
+
+    .droite ul li a {
+        font-size: 10px;
+        font-style: normal;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .droite a {
+        color: #222;
+        text-decoration: none;
+    }
+
+    .droite a:hover {
+        color: #35b5ff;
+    }
+
+    .droite small {
+        color: gray;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* RESPONSIVE */
+    .navbarpetitPhone {
+        display: none;
+    }
+
+
+
+    /*-------------------------------------- NAV OU MENU PRINCIPAL */
+
+    nav.nav-principal {
+        height: 70px;
+        width: 100%;
+        top: 0;
+        margin: 0px;
+        background-color: #fff;
+        border-top: 1px solid #2222;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a .logo {
+        height: 70px;
+        width: 120px;
+        margin-left: 10px;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a {
+        text-decoration: none;
+        color: #555;
+    }
+
+    nav.nav-principal ul {
+        list-style: none;
+        float: right;
+    }
+
+    nav.nav-principal ul li {
+        display: inline-block;
+        margin: 0 15px;
+        line-height: 70px;
+        font-size: 14px;
+    }
+
+    nav.nav-principal ul li a {
+        color: #555;
+    }
+
+    nav.nav-principal ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav.nav-principal ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a.active {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    /* MENU HAMBURGER */
+    nav.nav-principal .menuHamburger {
+        display: none;
+    }
+
+    /* DON PHONE RESPONSIVE */
+    .donPhone {
+        display: none;
+    }
+
+    /* MENU PHONE RESPONSIVE */
+    .menuPhone {
+        display: none;
+    }
+
+    ul li .ligne {
+        line-height: 70px;
+        margin: 0 20px;
+    }
+
+    ul li a {
+        color: #555;
+        text-decoration: none;
+    }
+
+    ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    ul li a.active {
+        color: #1cabe2;
+    }
+
+    ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav ul li.donateur {
+        /* height: 100%; */
+        background-color: #1cabe2;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: -27px;
+    }
+
+    nav ul li.donateur:hover {
+        background-color: #098dc0;
+
+    }
+
+    nav ul li.donateur a {
+        color: #fff;
+    }
+
+    nav ul li.don {
+        /* height: 100%; */
+        background-color: #ff8d41;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: -5px;
+    }
+
+    nav ul li.don:hover {
+        background-color: #ec7a2e;
+    }
+
+    nav ul li.don a {
+        color: #fff;
+    }
+
+
+}
+
+@media screen and (min-width: 1208px) and (max-width: 1347px) {
+
+    /* -------------------------------------HEADER */
+    header {
+        position: fixed;
+        z-index: 999;
+
+    }
+
+
+
+    /*-------------------------------------- PETIT NAV OU AVANT MENU */
+
+    .navbarpetit {
+        display: grid;
+        grid-template-columns: 13% 56% 31%;
+        height: 35px;
+        width: 100%;
+        line-height: 35px;
+        background-color: #fff;
+    }
+
+    .portail {
+        height: 35px;
+        width: 100%;
+        font-size: 11px;
+        background-color: #ddf2fb;
+        padding-left: 15px;
+    }
+
+    .portail .farbe {
+        color: #555;
+    }
+
+    .portail:hover {
+        background-color: #1cabe2;
+    }
+
+    .portail a {
+        text-decoration: none;
+    }
+
+    .portail a:hover {
+        color: #fff;
+    }
+
+    .droite ul {
+        list-style: none;
+    }
+
+    .droite ul li {
+        display: inline-block;
+    }
+
+    .droite ul li a {
+        font-size: 10px;
+        font-style: normal;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .droite a {
+        color: #222;
+        text-decoration: none;
+    }
+
+    .droite a:hover {
+        color: #35b5ff;
+    }
+
+    .droite small {
+        color: gray;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* RESPONSIVE */
+    .navbarpetitPhone {
+        display: none;
+    }
+
+
+
+    /*-------------------------------------- NAV OU MENU PRINCIPAL */
+
+    nav.nav-principal {
+        height: 70px;
+        width: 100%;
+        top: 0;
+        margin: 0px;
+        background-color: #fff;
+        border-top: 1px solid #2222;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a .logo {
+        height: 70px;
+        width: 120px;
+        margin-left: 10px;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a {
+        text-decoration: none;
+        color: #555;
+    }
+
+    nav.nav-principal ul {
+        list-style: none;
+        float: right;
+    }
+
+    nav.nav-principal ul li {
+        display: inline-block;
+        margin: 0 15px;
+        line-height: 70px;
+        font-size: 14px;
+    }
+
+    nav.nav-principal ul li a {
+        color: #555;
+    }
+
+    nav.nav-principal ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav.nav-principal ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a.active {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    /* MENU HAMBURGER */
+    nav.nav-principal .menuHamburger {
+        display: none;
+    }
+
+    /* DON PHONE RESPONSIVE */
+    .donPhone {
+        display: none;
+    }
+
+    /* MENU PHONE RESPONSIVE */
+    .menuPhone {
+        display: none;
+    }
+
+    ul li .ligne {
+        line-height: 70px;
+        margin: 0 20px;
+    }
+
+    ul li a {
+        color: #555;
+        text-decoration: none;
+    }
+
+    ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    ul li a.active {
+        color: #1cabe2;
+    }
+
+    ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav ul li.donateur {
+        /* height: 100%; */
+        background-color: #1cabe2;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: -27px;
+    }
+
+    nav ul li.donateur:hover {
+        background-color: #098dc0;
+
+    }
+
+    nav ul li.donateur a {
+        color: #fff;
+    }
+
+    nav ul li.don {
+        /* height: 100%; */
+        background-color: #ff8d41;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: -5px;
+    }
+
+    nav ul li.don:hover {
+        background-color: #ec7a2e;
+    }
+
+    nav ul li.don a {
+        color: #fff;
+    }
+
+
+
+
+    /*------------------------------------------------ PAGE HOME */
+
+}
+
+@media screen and (min-width: 1347px) and (max-width: 1495px) {
+
+
+    /*-------------------------------------- PETIT NAV OU AVANT MENU */
+
+    .navbarpetit {
+        display: grid;
+        grid-template-columns: 12% 57% 31%;
+        height: 35px;
+        width: 100%;
+        line-height: 35px;
+        background-color: #fff;
+    }
+
+    .portail {
+        height: 35px;
+        width: 100%;
+        font-size: 11px;
+        background-color: #ddf2fb;
+        padding-left: 15px;
+    }
+
+    .portail .farbe {
+        color: #555;
+    }
+
+    .portail:hover {
+        background-color: #1cabe2;
+    }
+
+    .portail a {
+        text-decoration: none;
+    }
+
+    .portail a:hover {
+        color: #fff;
+    }
+
+    .droite ul {
+        list-style: none;
+    }
+
+    .droite ul li {
+        display: inline-block;
+    }
+
+    .droite ul li a {
+        font-size: 12px;
+        font-style: normal;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .droite a {
+        color: #222;
+        text-decoration: none;
+    }
+
+    .droite a:hover {
+        color: #35b5ff;
+    }
+
+    .droite small {
+        color: gray;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* RESPONSIVE */
+    .navbarpetitPhone {
+        display: none;
+    }
+
+
+
+    /*-------------------------------------- NAV OU MENU PRINCIPAL */
+
+    nav.nav-principal {
+        height: 70px;
+        width: 100%;
+        top: 0;
+        margin: 0px;
+        background-color: #fff;
+        border-top: 1px solid #2222;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a .logo {
+        height: 70px;
+        width: 135px;
+        margin-left: 10px;
+        border-bottom: 1px solid #2222;
+    }
+
+    nav.nav-principal a {
+        text-decoration: none;
+        color: #555;
+    }
+
+    nav.nav-principal ul {
+        list-style: none;
+        float: right;
+    }
+
+    nav.nav-principal ul li {
+        display: inline-block;
+        margin: 0 20px;
+        line-height: 70px;
+        font-size: 16px;
+    }
+
+    nav.nav-principal ul li a {
+        color: #555;
+    }
+
+    nav.nav-principal ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav.nav-principal ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li a.active {
+        color: #1cabe2;
+    }
+
+    nav.nav-principal ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    /* MENU HAMBURGER */
+    nav.nav-principal .menuHamburger {
+        display: none;
+    }
+
+    /* DON PHONE RESPONSIVE */
+    .donPhone {
+        display: none;
+    }
+
+    /* MENU PHONE RESPONSIVE */
+    .menuPhone {
+        display: none;
+    }
+
+    ul li .ligne {
+        line-height: 70px;
+        margin: 0 20px;
+    }
+
+    ul li a {
+        color: #555;
+        text-decoration: none;
+    }
+
+    ul .ligne:hover {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    ul li .brule:hover {
+        color: #1cabe2;
+    }
+
+    ul li a .sucher:hover {
+        color: #1cabe2;
+    }
+
+    ul li a.active {
+        color: #1cabe2;
+    }
+
+    ul li.item-active {
+        border-bottom: 4px solid #1cabe2;
+    }
+
+    nav ul li.donateur {
+        /* height: 100%; */
+        background-color: #1cabe2;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: -27px;
+    }
+
+    nav ul li.donateur:hover {
+        background-color: #098dc0;
+
+    }
+
+    nav ul li.donateur a {
+        color: #fff;
+    }
+
+    nav ul li.don {
+        /* height: 100%; */
+        background-color: #ff8d41;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: -5px;
+    }
+
+    nav ul li.don:hover {
+        background-color: #ec7a2e;
+    }
+
+    nav ul li.don a {
+        color: #fff;
+    }
+
+
+
+    /*------------------------------------------------ PAGE HOME */
+
+
+    /*----------- CAROUSEL */
+
+    .p-home .carousel-inner .carousel-item img {
+        height: 100%;
+        width: 100vh;
+    }
+
+
+    /*------------- START */
+
+    section .slogan-am h2 {
+        padding: 100px 0 100px 0;
+        font-size: 35px;
+        font-family: 'Fjalla One';
+        font-weight: 700;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    section .slogan-am h2 span {
+        font-family: 'Fjalla One';
+        color: #1cabe2;
+    }
+
+    section.p-home {
+        margin-top: 110px;
+    }
+
+    section {
+        margin: 0 20px 0 20px;
+    }
+
+    .custom-btn:hover {
+        background-color: #098dc0;
+        color: #fff;
+    }
+
+
+
+    /*--------- ACTUALITE */
+
+    section .actualite1 a {
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 15px 30px 15px 30px;
+        background-color: #1cabe2;
+        color: #fff;
+    }
+
+    section .actualite1 a:hover {
+        background-color: #098dc0;
+    }
+
+    .p-actualite {
+        background-color: #f7f9fa;
+        height: 625px;
+        width: 100%;
+    }
+
+    /* .dimension {
+    height: 400px;
+    width: 100%;
+} */
+
+    section h6 {
+        background-color: #1cabe2;
+        height: 30px;
+        width: 110px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+
+    /*------------NOS ACTIONS */
+
+    .p-action {
+        margin: 0 80px 80px 80px;
+    }
+
+    .p-action .row .col-md-3 .actioncolor {
+        background-color: #1cabe2;
+        height: 500px;
+        width: 100%;
+        margin-bottom: 25px;
+        color: #fff;
+    }
+
+    .p-action .row .col-md-3 i {
+        font-size: 25px;
+        border: 1px solid #fff;
+        padding: 15px;
+        border-radius: 100%;
+        margin: 30px 0 40px 30px;
+    }
+
+    .p-action .row .col-md-3 h5 {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .p-action .row .col-md-3 p {
+        margin-left: 20px;
+        font-size: 13px;
+
+    }
+
+    .p-action .row .col-md-3 a {
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 15px 30px 15px 30px;
+        background-color: #fff;
+        color: #1cabe2;
+        margin-left: 20px;
+    }
+
+    .p-action .row .col-md-3 .instruction {
+        margin-top: 20px;
+    }
+
+    .p-action .row .col-md-3 .medicament {
+        margin-top: 40px;
+    }
+
+    .p-action .row .col-md-3 .hebergement {
+        margin-top: 60px;
+    }
+
+    .p-action .row .col-md-3 .participation {
+        margin-top: 20px;
+    }
+
+    .p-action .row .col-md-3 a:hover {
+        background-color: #ddf2fb
+    }
+
+
+
+
+    /* -----------BENEVOLE */
+
+    .p-benevole {
+        background-color: #ddf2fb;
+        height: 625px;
+        width: 100%;
+    }
+
+
+
+
+    /* -------------DONATION HOME */
+
+    .p-donation {
+        background-color: #eef3f6;
+        height: 600px;
+        width: 100%;
+    }
+
+    .p-donation h2 {
+        /* margin-right: 50px; */
+        padding: 25px 0 20px;
+    }
+
+    .p-donation .dona-don {
+        color: #fff;
+        background-color: #1cabe2;
+        height: 422px;
+        width: 100%;
+        padding: 70px 50px 50px 50px;
+
+    }
+
+    .p-donation a {
+        margin-top: 50px;
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 15px 30px 15px 30px;
+        background-color: #fff;
+        color: #1cabe2;
+        margin-top: 35px;
+    }
+
+    .p-donation a:hover {
+        background-color: #fff;
+    }
+
+
+    /* -----------------------------------------ESPACE DONATEUR */
+
+
+
+
+
+
+
+
+
+    /*----------------------------------------- ALL NEWS */
+
+    section.p-all-news {
+        margin-top: 95px;
+    }
+
+    .all-news {
+        background-color: #f7f9fa;
+    }
+
+    section .row .col-md-4 h5 {
+        margin-top: 10px;
+        background-color: #1cabe2;
+        color: #fff;
+        height: 40px;
+        width: 150px;
+        line-height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+
+    /*-----------NEWSLETTER */
+
+    .p-newsletter {
+        background-color: #ddf2fb;
+        height: 300px;
+        width: 100%;
+    }
+
+    .p-newsletter .row {
+        margin: 0 20px 0 20px;
+        padding-top: 50px;
+
+    }
+
+    .p-newsletter section ul.r-social li {
+        display: inline-block;
+    }
+
+    .p-newsletter section ul li i {
+        margin-right: 15px;
+        font-size: 16px;
+        border: 1px solid #1cabe2;
+        padding: 15px 17px 15px 17px;
+        border-radius: 100%;
+    }
+
+    .p-newsletter section ul li i:hover {
+        color: #ec7a2e;
+        border: 1px solid #ff8d41;
+    }
+
+    .p-newsletter section p {
+        font-size: 10px;
+        color: #555;
+    }
+
+    .p-newsletter section .btn {
+        max-height: 45px;
+    }
+
+    .p-newsletter section .btn:hover {
+        color: #fff;
+    }
+
+
+
+    /*----------------------------------------- PAGE CONTANCT */
+
+
+    section h1.contact {
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    section div.container {
+        max-width: 600px;
+        /* margin: 0 auto; */
+        padding: 20px;
+    }
+
+    section div form input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    section div form input[type="submit"] {
+        background-color: #35b5ff;
+        color: white;
+        border: none;
+        padding: 12px 248px;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    section div form input[type="submit"]:hover {
+        background-color: #35b5ff
+    }
+
+    section div.container img {
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+
+
+
+    /*--------------------------------------------------- FAQ */
+
+
+    section h1.faq {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    section main div.faq-item {
+        margin-bottom: 20px;
+    }
+
+    section main div.faq-item h2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    section main div.faq-item dl {
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+    section main div.faq-item dl dt {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    section main div.faq-item dl dd {
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    section main div ul {
+        list-style-type: none;
+        margin-left: 20px;
+    }
+
+    section main div ul li {
+        margin-top: 5px;
+    }
+
+
+    /*------------------------------------------------- ADMIN LOGIN */
+
+    section.p-login {
+        margin-top: 180px;
+        margin-bottom: 40px;
+    }
+
+    section.p-login form {
+        border: 1px solid #000;
+        padding: 30px;
+        border-radius: 6px;
+    }
+
+
+
+
+
+
+
+    /*------------------------------------------------- FOOTER */
+
+    
+
+    footer {
+        padding-top: 50px;
+    }
+
+    footer .about-am {
+        padding-bottom: 12px;
+    }
+
+    footer .about-am img {
+        height: 80px;
+        width: 160px;
+    }
+
+    footer div ul {
+        list-style-type: none;
+        padding: 0;
+
+    }
+
+    footer .about-am i {
+        font-size: 20px;
+        color: #1cabe2;
+        margin-right: 10px;
+
+
+    }
+
+    footer .about-am i.fa-phone {
+        transform: rotate(110deg);
+
+    }
+
+    footer .soutenir-am {
+        margin-bottom: -17px;
+    }
+
+    footer .soutenir-am i {
+        font-size: 40px;
+        color: #1cabe2;
+        margin-right: 15px;
+    }
+
+    footer .soutenir-am i:hover {
+        color: #098dc0;
+    }
+
+    footer .soutenir-am p {
+        color: #555
+    }
+
+    footer .row ul li a {
+        text-decoration: none;
+        color: #555;
+        font-weight: 100;
+        line-height: 1;
+    }
+
+    footer .row ul li a:hover {
+        color: #1cabe2;
+
+    }
+
+    footer .footband {
+        background-color: rgb(78, 72, 72);
+        font-size: 12px;
+        display: flex;
+        text-align: center;
+    }
+
+    footer .footband ul {
+        list-style: none;
+    }
+
+    footer .footband ul li {
+        display: inline-block;
+        margin-right: 30px;
+        padding-top: 15px;
+    }
+
+    footer .footband ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    footer .footband ul li a:hover {
+        color: #1cabe2;
+    }
+}
